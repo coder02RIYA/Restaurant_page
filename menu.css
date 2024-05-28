@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2e8b57; /* Parrot green */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-heading {
+    font-size: 48px; /* Adjusted font size */
+    font-weight: bold; /* Bold font weight */
+    color: #8b4513; /* Brown color */
+    margin: 0; /* Remove margin */
+    font-family: 'Arial Black', sans-serif;
+}
+
+.menu-section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0; /* Remove margin */
+}
+
+.category-heading {
+    background-image: url('starter1.png'); /* Replace with actual image */
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 36px; /* Adjusted font size */
+    font-weight: bold; /* Bold font weight */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ,'Arial Black', sans-serif;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.item-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-details {
+    padding: 10px;
+}
+
+.item-name {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    margin: 0;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #2e8b57; /* Parrot green */
+    padding: 20px 0;
+}
+
+.gallery-heading {
+    font-size: 36px;
+    color: rgb(74, 14, 14); /* Brown color */
+    font-weight: bold;
+}
+
+.gallery {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.gallery img:last-child {
+    margin-right: 0;
+}
